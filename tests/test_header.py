@@ -5,7 +5,7 @@ from pages.headerpage import headerpage
 
 @pytest.mark.smoke
 # @pytest.mark.header
-@pytest.mark.order(3)
+# @pytest.mark.order(3)
 def test_trad_header_click(page):
    header_tech= headerpage(page)
    header_tech.about_us_click()
