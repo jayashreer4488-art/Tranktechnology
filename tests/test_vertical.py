@@ -3,7 +3,7 @@ from pages.verticalpage import verticalpage
 
 
 @pytest.mark.smoke
-# @pytest.mark.order(1)
+@pytest.mark.order(1)
 # @pytest.mark.skip
 def test_trad_vert_click(page):
    vert_tech= verticalpage(page)
